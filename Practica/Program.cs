@@ -1,4 +1,3 @@
-﻿
-Console.WriteLine("Слюсаренко Сергей ИСП-232");
+﻿using CSharpPracticum.Menu;
 
-Console.WriteLine("Test for commit");
+MenuRunner.Run();
