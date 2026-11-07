@@ -20,7 +20,7 @@ public class Task01_HelloWorld : TaskBase
 
     public override void Run()
     {
-        Console.WriteLine("Поверка для 15 задания");
+        Console.WriteLine("Hello World");
         Console.WriteLine(DateTime.Now.ToString("dd.MM.yyyy"));
     }
 }
