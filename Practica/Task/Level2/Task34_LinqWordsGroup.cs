@@ -24,6 +24,7 @@ public class Task34_LinqWordsGroup : TaskBase
         {
             "яблоко", "арбуз", "банан", "виноград", "апельсин", "вишня",
             "груша", "брусника", "ананас", "голубика", "ежевика", "ягода",
+            "мандарин", "маракуйа", "грейпфрукт", "клубника",
         };
 
         foreach (var group in words.GroupBy(w => char.ToUpper(w[0])).OrderBy(g => g.Key))
