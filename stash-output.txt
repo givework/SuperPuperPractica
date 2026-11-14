@@ -1,0 +1,3 @@
+=== GIT STASH LIST ДО ===
+
+=== GIT STASH LIST ПОСЛЕ ===

@@ -1,0 +1,100 @@
+[33mc111e2e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;33mtag: [m[1;33mv1.0.0[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mfeature/stash-test[m[33m)[m HEAD@{0}: reset: moving to HEAD~1
+[33m5fc7382[m HEAD@{1}: commit: feat: add reflog test file
+[33mc111e2e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;33mtag: [m[1;33mv1.0.0[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mfeature/stash-test[m[33m)[m HEAD@{2}: checkout: moving from master to master
+[33mc111e2e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;33mtag: [m[1;33mv1.0.0[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mfeature/stash-test[m[33m)[m HEAD@{3}: checkout: moving from feature/squash-demo to master
+[33mf905d23[m[33m ([m[1;32mfeature/squash-demo[m[33m)[m HEAD@{4}: rebase (finish): returning to refs/heads/feature/squash-demo
+[33mf905d23[m[33m ([m[1;32mfeature/squash-demo[m[33m)[m HEAD@{5}: commit (amend): feat: add 4 lines to squash-demo.txt
+[33m37d1725[m HEAD@{6}: rebase (squash): # This is a combination of 3 commits.
+[33mec20d1c[m HEAD@{7}: rebase (squash): # This is a combination of 2 commits.
+[33m36c8dcd[m HEAD@{8}: rebase (start): checkout HEAD~4
+[33m7e0650d[m HEAD@{9}: reset: moving to HEAD
+[33m7e0650d[m HEAD@{10}: rebase (abort): returning to refs/heads/feature/squash-demo
+[33md80ffc5[m HEAD@{11}: rebase (squash): # This is a combination of 3 commits.
+[33m4b4f994[m HEAD@{12}: rebase (squash): # This is a combination of 2 commits.
+[33m36c8dcd[m HEAD@{13}: rebase (start): checkout HEAD~4
+[33m7e0650d[m HEAD@{14}: reset: moving to HEAD
+[33m7e0650d[m HEAD@{15}: commit: add: fourth line
+[33m0d7d8bd[m HEAD@{16}: commit: add: third line
+[33m3009590[m HEAD@{17}: commit: add: second line
+[33m36c8dcd[m HEAD@{18}: commit: add: first line
+[33mc111e2e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;33mtag: [m[1;33mv1.0.0[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mfeature/stash-test[m[33m)[m HEAD@{19}: checkout: moving from master to feature/squash-demo
+[33mc111e2e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;33mtag: [m[1;33mv1.0.0[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mfeature/stash-test[m[33m)[m HEAD@{20}: checkout: moving from feature/stash-test to master
+[33mc111e2e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;33mtag: [m[1;33mv1.0.0[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mfeature/stash-test[m[33m)[m HEAD@{21}: checkout: moving from master to feature/stash-test
+[33mc111e2e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;33mtag: [m[1;33mv1.0.0[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mfeature/stash-test[m[33m)[m HEAD@{22}: checkout: moving from feature/git-basics to master
+[33mec757f0[m[33m ([m[1;32mfeature/git-basics[m[33m)[m HEAD@{23}: checkout: moving from master to feature/git-basics
+[33mc111e2e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;33mtag: [m[1;33mv1.0.0[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mfeature/stash-test[m[33m)[m HEAD@{24}: reset: moving to HEAD
+[33mc111e2e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;33mtag: [m[1;33mv1.0.0[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mfeature/stash-test[m[33m)[m HEAD@{25}: pull --progress --no-edit --no-stat --recurse-submodules=no origin: Merge made by the 'ort' strategy.
+[33m55f6db3[m HEAD@{26}: commit: Выполнил задания 3 уровня с 36 по 45
+[33ma07d4e8[m[33m ([m[1;31morigin/feature/rebase-demo[m[33m, [m[1;32mfeature/rebase-demo[m[33m)[m HEAD@{27}: merge feature/rebase-demo: Fast-forward
+[33m33d2a77[m HEAD@{28}: checkout: moving from feature/rebase-demo to master
+[33ma07d4e8[m[33m ([m[1;31morigin/feature/rebase-demo[m[33m, [m[1;32mfeature/rebase-demo[m[33m)[m HEAD@{29}: checkout: moving from master to feature/rebase-demo
+[33m33d2a77[m HEAD@{30}: checkout: moving from feature/rebase-demo to master
+[33ma07d4e8[m[33m ([m[1;31morigin/feature/rebase-demo[m[33m, [m[1;32mfeature/rebase-demo[m[33m)[m HEAD@{31}: pull --progress --no-edit --no-stat --recurse-submodules=no origin: Merge made by the 'ort' strategy.
+[33m7cf0098[m HEAD@{32}: commit: Результат 35 задания в git-notes.md
+[33mfdba1f9[m HEAD@{33}: rebase (finish): returning to refs/heads/feature/rebase-demo
+[33mfdba1f9[m HEAD@{34}: rebase (squash): feat: добавил 3 строки в README
+[33m518a03f[m HEAD@{35}: rebase (squash): # This is a combination of 2 commits.
+[33ma9e630a[m HEAD@{36}: rebase (start): checkout HEAD~3
+[33m2d0612a[m HEAD@{37}: commit: добавил 3 строку в README
+[33m8063bfd[m HEAD@{38}: commit: добавил 2 строку в README
+[33ma9e630a[m HEAD@{39}: commit: добавил 1 строку в README
+[33m33d2a77[m HEAD@{40}: checkout: moving from master to feature/rebase-demo
+[33m33d2a77[m HEAD@{41}: pull --progress --no-edit --no-stat --recurse-submodules=no origin: Fast-forward
+[33m74738e6[m HEAD@{42}: checkout: moving from feature/task-35 to master
+[33m3830bfd[m[33m ([m[1;31morigin/feature/task-35[m[33m, [m[1;32mfeature/task-35[m[33m)[m HEAD@{43}: checkout: moving from master to feature/task-35
+[33m74738e6[m HEAD@{44}: checkout: moving from feature/task-35 to master
+[33m3830bfd[m[33m ([m[1;31morigin/feature/task-35[m[33m, [m[1;32mfeature/task-35[m[33m)[m HEAD@{45}: commit: изменил README
+[33m0a35e95[m HEAD@{46}: commit: добавил пару слов в 34 задании
+[33m74738e6[m HEAD@{47}: checkout: moving from master to feature/task-35
+[33m74738e6[m HEAD@{48}: commit: добавил .editorconfig
+[33mce24ea4[m HEAD@{49}: commit: Доделал все задания до 34 во 2 уровне
+[33m480124c[m HEAD@{50}: commit: сделал задания со 2 уровня с 16 по 23
+[33mb31bb55[m HEAD@{51}: commit: попытка починить README
+[33m8043011[m HEAD@{52}: pull --progress --no-edit --no-stat --recurse-submodules=no origin: Fast-forward
+[33m1dfe048[m HEAD@{53}: commit: изменение README
+[33md7bcfa3[m HEAD@{54}: pull --progress --no-edit --no-stat --recurse-submodules=no origin: Fast-forward
+[33m5900290[m HEAD@{55}: commit: добавление readme
+[33m3af3746[m HEAD@{56}: Branch: renamed refs/heads/main to refs/heads/master
+[33m3af3746[m HEAD@{58}: commit: Добавлен git-notes.md с историей коммитов для 15 задания
+[33mfbdf3c5[m HEAD@{59}: checkout: moving from feature/git-basics to main
+[33mec757f0[m[33m ([m[1;32mfeature/git-basics[m[33m)[m HEAD@{60}: checkout: moving from main to feature/git-basics
+[33mfbdf3c5[m HEAD@{61}: checkout: moving from feature/git-basics to main
+[33mec757f0[m[33m ([m[1;32mfeature/git-basics[m[33m)[m HEAD@{62}: checkout: moving from main to feature/git-basics
+[33mfbdf3c5[m HEAD@{63}: commit (merge): разрешен конфликт в README.md
+[33m6b4e517[m HEAD@{64}: checkout: moving from feature/git-basics to main
+[33mec757f0[m[33m ([m[1;32mfeature/git-basics[m[33m)[m HEAD@{65}: commit: Обновлён заголовок README в feature
+[33m74c4a18[m[33m ([m[1;31morigin/feature/git-basics[m[33m)[m HEAD@{66}: checkout: moving from main to feature/git-basics
+[33m6b4e517[m HEAD@{67}: checkout: moving from feature/git-basics to main
+[33m74c4a18[m[33m ([m[1;31morigin/feature/git-basics[m[33m)[m HEAD@{68}: checkout: moving from main to feature/git-basics
+[33m6b4e517[m HEAD@{69}: checkout: moving from feature/git-basics to main
+[33m74c4a18[m[33m ([m[1;31morigin/feature/git-basics[m[33m)[m HEAD@{70}: checkout: moving from main to feature/git-basics
+[33m6b4e517[m HEAD@{71}: checkout: moving from feature/git-basics to main
+[33m74c4a18[m[33m ([m[1;31morigin/feature/git-basics[m[33m)[m HEAD@{72}: checkout: moving from main to feature/git-basics
+[33m6b4e517[m HEAD@{73}: checkout: moving from feature/git-basics to main
+[33m74c4a18[m[33m ([m[1;31morigin/feature/git-basics[m[33m)[m HEAD@{74}: checkout: moving from main to feature/git-basics
+[33m6b4e517[m HEAD@{75}: checkout: moving from feature/git-basics to main
+[33m74c4a18[m[33m ([m[1;31morigin/feature/git-basics[m[33m)[m HEAD@{76}: checkout: moving from main to feature/git-basics
+[33m6b4e517[m HEAD@{77}: checkout: moving from feature/git-basics to main
+[33m74c4a18[m[33m ([m[1;31morigin/feature/git-basics[m[33m)[m HEAD@{78}: checkout: moving from main to feature/git-basics
+[33m6b4e517[m HEAD@{79}: checkout: moving from feature/git-basics to main
+[33m74c4a18[m[33m ([m[1;31morigin/feature/git-basics[m[33m)[m HEAD@{80}: checkout: moving from main to feature/git-basics
+[33m6b4e517[m HEAD@{81}: checkout: moving from feature/git-basics to main
+[33m74c4a18[m[33m ([m[1;31morigin/feature/git-basics[m[33m)[m HEAD@{82}: checkout: moving from main to feature/git-basics
+[33m6b4e517[m HEAD@{83}: commit: Обновлён заголовок README в main
+[33m74c4a18[m[33m ([m[1;31morigin/feature/git-basics[m[33m)[m HEAD@{84}: merge feature/git-basics: Fast-forward
+[33m0848c04[m HEAD@{85}: checkout: moving from feature/git-basics to main
+[33m74c4a18[m[33m ([m[1;31morigin/feature/git-basics[m[33m)[m HEAD@{86}: checkout: moving from main to feature/git-basics
+[33m0848c04[m HEAD@{87}: checkout: moving from feature/git-basics to main
+[33m74c4a18[m[33m ([m[1;31morigin/feature/git-basics[m[33m)[m HEAD@{88}: checkout: moving from main to feature/git-basics
+[33m0848c04[m HEAD@{89}: checkout: moving from feature/git-basics to main
+[33m74c4a18[m[33m ([m[1;31morigin/feature/git-basics[m[33m)[m HEAD@{90}: checkout: moving from main to feature/git-basics
+[33m0848c04[m HEAD@{91}: checkout: moving from feature/git-basics to main
+[33m74c4a18[m[33m ([m[1;31morigin/feature/git-basics[m[33m)[m HEAD@{92}: commit: выполнение 15 задания
+[33m0848c04[m HEAD@{93}: checkout: moving from main to feature/git-basics
+[33m0848c04[m HEAD@{94}: Branch: renamed refs/heads/maiin to refs/heads/main
+[33m0848c04[m HEAD@{96}: Branch: renamed refs/heads/master to refs/heads/maiin
+[33m0848c04[m HEAD@{98}: commit: Создание структуры и логики с оформлением меню и выполнение 14 заданий из 1 уровня сложности
+[33mfaf7908[m HEAD@{99}: pull --progress --no-edit --no-stat --recurse-submodules=no origin: Fast-forward
+[33m7d980ae[m HEAD@{100}: commit: Проверка на работу коммита
+[33m66e724f[m HEAD@{101}: commit: Добавьте файлы проекта.
+[33m6bebea9[m HEAD@{102}: commit (initial): Добавить .gitattributes и .gitignore.
