@@ -73,4 +73,25 @@ c111e2e (tag: v1.0.0, origin/master, origin/HEAD, feature/stash-test) docs: add 
 f905d23 (feature/squash-demo) feat: add 4 lines to squash-demo.txt
 
 
+=== ЗАДАНИЕ 50: СИМУЛЯЦИЯ GIT BISECT ===
 
+--- git bisect log ---
+git bisect start
+ bad: [HEAD] fix: calculator v8
+git bisect bad
+ good: [HEAD~7] fix: calculator v1
+git bisect good HEAD~7
+ bad: [HEAD~3] fix: calculator v5
+git bisect bad
+ good: [HEAD~5] fix: calculator v3
+git bisect good
+ bad: [HEAD~4] fix: calculator v4 (BROKEN)
+git bisect bad
+ first bad commit: [HEAD~4] fix: calculator v4 (BROKEN)
+
+--- Результат ---
+Плохой коммит найден: v4 (BROKEN)
+В нём метод возвращает 1+1=5 вместо 1+1=2
+
+--- git bisect reset ---
+HEAD is now at feature/bisect-demo
