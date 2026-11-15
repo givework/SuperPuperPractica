@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PracticeDbApp": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "PRACTICE_DB_CONNECTION": "Server=DESKTOP-U6EEQNA;Database=PracticeDB;Trusted_Connection=True;TrustServerCertificate=True;"
+      }
+    }
+  }
+}
